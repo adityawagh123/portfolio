@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Add Project</title>
+</head>
+<body>
+
+<h2>Add New Project</h2>
+
+<form th:action="@{/admin/save}" method="post">
+    <input type="text" name="title" placeholder="Project Title" required><br><br>
+    <textarea name="description" placeholder="Project Description"></textarea><br><br>
+    <input type="text" name="technology" placeholder="Technology Used"><br><br>
+    <input type="text" name="githubLink" placeholder="GitHub Link"><br><br>
+    <input type="text" name="liveLink" placeholder="Live Link"><br><br>
+
+    <button type="submit">Save Project</button>
+</form>
+
+</body>
+</html>
