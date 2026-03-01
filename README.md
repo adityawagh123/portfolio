@@ -11,7 +11,6 @@ This is a full stack portfolio project built using Spring Boot and MySQL.
 ## Features
 - Contact form
 - Database integration
-- WhatsApp notification
 - Responsive design
 
 ## Author
